@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry shell"
+version = "exit"
+description = "exit"
+authors = ["poetry init"]
+license = "poetry init"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "deactivate"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
