@@ -8,6 +8,9 @@ from src.exceptions import HHAPIException
 
 
 class API(ABC):
+    """
+    Абстрактный класс подключения и получения данных от API
+    """
     @property
     @abstractmethod
     def url(self) -> str:
